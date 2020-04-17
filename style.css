@@ -1,0 +1,155 @@
+#blocpage
+{
+	display: flex;
+	text-align: justify;
+	width: 50%;
+	text-align: justify;
+	margin:auto;
+}
+#nomprenom
+{
+	margin-left: 50px;
+	font-size: 3em;
+	margin-top: 50px;
+	padding: auto;
+	background-color: white;
+	font-weight: bold;
+	display: inline-block;
+}
+.couleurprenom
+ {
+ 	color: #006080 ;
+ 	
+ }
+ .devweb
+ {
+ 	margin-left: 50px;
+ 	font-size: 2em;
+ }
+ 
+ #devel
+ {
+ 	border: 1.5px  cyan solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+
+ }
+
+ p
+ {
+ 	overflow: hidden;
+ }
+
+h2
+{
+	border: 2px cyan solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin: auto;
+	width: 80%;
+	font-weight: bold;
+
+}
+#blocgauche
+{
+	background-color: #006080;
+	width: 30%;
+	max-width: 100px;
+	min-width: 30%
+}
+
+
+
+}
+h1
+{
+	background-color: grey;
+	text-align: center;
+	overflow: hidden;
+	font-size: 1.5em;
+}
+#minipp
+{
+	border-radius: 50px;
+	
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    position: relative;
+    display: block;
+    overflow: hidden;
+	
+	
+}
+#blocdroit
+{
+	/*width: 70%;*/
+
+}
+h2
+{
+	
+	
+	
+}
+ul
+{
+	
+	margin-left: 25px;
+	width: 127px
+	
+}
+li
+{
+	padding-right: 50px
+
+}
+
+.txt
+{
+	margin-left: 60px
+
+}
+.form
+{
+	display: flex;
+
+}
+
+.dateform1
+{
+	display: flex;
+}
+.staps1
+{
+	display: flex;
+}
+
+
+}
+.experience
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#flexrecom
+{
+	display: flex;
+	margin-left: 20px;
+	
+}
+
+.Anna
+{
+	padding: 50px
+}
+
+.Emeric
+{
+	padding: 50px
+}
+
