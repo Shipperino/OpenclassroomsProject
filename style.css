@@ -7,13 +7,15 @@ body
 	border: 1px grey solid;
 	box-shadow: 4px 4px 6px #888;
 	font-family: calibri;
-	margin-top: 70px
+	margin-top: 70px;
+	background-image: url(images/backgroundcv.png);
 }
 /*BLOC DROIT*/
 main
 {
 	overflow: hidden;
 	padding-right: 35px;
+	background-color: aliceblue;
 }
 header
 {
@@ -78,6 +80,11 @@ h3
 {
 	margin-top: 16px
 }
+h4
+{
+	margin-bottom: 0;
+	margin-top: 0%;
+}
 
 .fas.fa-book,.fas.fa-suitcase,.fas.fa-pen
 {
@@ -120,13 +127,14 @@ li
 {
 	padding: 50px;
 	padding-top: 20px;
+	padding-bottom: 0%;
 }
 
 
 /*BLOC GAUCHE*/
 aside
 {
-	background-color: #006080;
+	background-color: #043869;
 	width: 30%;
 	min-width: 30%;
 	text-align:center;
@@ -156,25 +164,30 @@ a img
 	width: 80px
 }
 
-aside h1
+aside h2
 {
-	background-color: #E0E0E0;
+	background-color: rgb(21, 22, 27);
 	text-align: center;
 	overflow: hidden;
 	font-size: 2em;
 	font-weight: bold;
-	box-shadow: 0px 5px 5px 0px #E0E0E0;
+	box-shadow: 0px 5px 5px 0px rgb(4, 47, 102);
+	width: 100%;
+	color: #006080;
+	margin-bottom: 50px;
+	margin-top: 30px;
+
 }
 
 .linkedin
 {
-	box-shadow: 5px 5px 5px 0px #BDBDBD;
+	/* box-shadow: 5px 5px 5px 0px #BDBDBD; */
 	display: inline-flex;
 }
 
 .apropos
 {
-	margin-top: 100px
+	margin-top: 00px
 }
 
 .loisirs
