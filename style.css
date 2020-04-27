@@ -205,12 +205,15 @@ aside h2
 	margin-top: 50px;
 	margin-bottom: 20px;
 }
-
+aside h4
+{
+	font-size: 1.2em;
+}
 
 aside p 
 {
-	font-size: 1.2em;
-	color: white;
+	font-size: 1em;
+	color: rgb(208, 244, 255);
 	text-align: center;
 }
 
