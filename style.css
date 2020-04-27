@@ -1,155 +1,257 @@
-#blocpage
+@media all and (max-width: 1180px)
+{
+	body
+	{
+		flex-direction: column;
+	}
+	body aside
+	{	
+	overflow:hidden;
+	width: 100%
+	}
+
+	aside p
+	{
+		display: none;
+	}
+	aside h1
+	{
+		width: 70%;
+		margin-left: auto;
+	}
+	
+	#nomprenom
+	{
+		text-align: center;
+		margin-left: 0px;
+		margin: auto;
+	}
+	.contact
+	{
+		margin: auto;
+		width: 100%;
+		flex-direction: column;
+	}
+	.apropos, .loisirs 
+	{
+		display: none;
+	}
+	aside .responsive
+	{
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+	}
+	.responsive #minipp
+	{
+		height: auto;
+		margin: 10px 10px 10px 10px;
+		width:150px;
+	}
+	.contact .linkedin
+	{
+		margin-left: 65%;
+	}
+}
+body
 {
 	display: flex;
 	text-align: justify;
-	width: 50%;
-	text-align: justify;
-	margin:auto;
+	width: 43%;
+	margin:auto;	
+	border: 1px grey solid;
+	box-shadow: 4px 4px 6px #888;
+	font-family: calibri;
+	margin-top: 70px
+}
+/*BLOC DROIT*/
+main
+{
+	overflow: hidden;
+	padding-right: 35px;
+}
+header
+{
+	margin-left: 50px;
+	margin-bottom: 45px
+
 }
 #nomprenom
 {
-	margin-left: 50px;
-	font-size: 3em;
-	margin-top: 50px;
-	padding: auto;
-	background-color: white;
-	font-weight: bold;
 	display: inline-block;
+	margin-bottom: 0px;
+	font-size: 3em;
+	margin-top: 50px
+
+
 }
 .couleurprenom
  {
  	color: #006080 ;
- 	
+ 	font-weight: bold;
+ }
+ .nom
+ {
+ 	font-weight: 400
  }
  .devweb
  {
- 	margin-left: 50px;
- 	font-size: 2em;
+ 	font-size: 1.5em;
+ 	;
+ 	
  }
  
  #devel
  {
- 	border: 1.5px  cyan solid;
+ 	border: 1.5px  #006080 solid;
 	border-top: none;
 	border-left: none;
 	border-right: none;
 
  }
-
- p
+ 
+ .imgtitre
  {
- 	overflow: hidden;
+ 	display: flex;
+ 	border: 2px #006080 solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-left: 10px;
+	padding-bottom: 10px;
+
  }
 
 h2
 {
-	border: 2px cyan solid;
-	border-top: none;
-	border-left: none;
-	border-right: none;
 	margin: auto;
 	width: 80%;
-	font-weight: bold;
-
+	margin-bottom: 10px;
+	margin-top: 10px
 }
-#blocgauche
+h3
 {
-	background-color: #006080;
-	width: 30%;
-	max-width: 100px;
-	min-width: 30%
+	margin-top: 16px
 }
 
+.fas.fa-book,.fas.fa-suitcase,.fas.fa-pen
+{
+	display: inline-flex;
+	vertical-align: bottom;
+	margin: auto;
+}
 
+ 
+body,ul,li
+{
+	display: flex;	
+}
 
-}
-h1
-{
-	background-color: grey;
-	text-align: center;
-	overflow: hidden;
-	font-size: 1.5em;
-}
-#minipp
-{
-	border-radius: 50px;
-	
-	text-align: center;
-	margin-left: auto;
-    margin-right: auto;
-    width: 6em;
-    position: relative;
-    display: block;
-    overflow: hidden;
-	
-	
-}
-#blocdroit
-{
-	/*width: 70%;*/
-
-}
-h2
-{
-	
-	
-	
-}
-ul
-{
-	
-	margin-left: 25px;
-	width: 127px
-	
-}
 li
 {
-	padding-right: 50px
+	padding-right: 20px
+}
 
+.date
+{
+	width: 50px;
+	margin-top: 18.72px;
 }
 
 .txt
 {
-	margin-left: 60px
-
-}
-.form
-{
-	display: flex;
-
-}
-
-.dateform1
-{
-	display: flex;
-}
-.staps1
-{
-	display: flex;
-}
-
-
-}
-.experience
-{
-	display: flex;
+	margin-left: 5px;
+	overflow: hidden;
 	flex-direction: column;
 }
 
 #flexrecom
 {
 	display: flex;
-	margin-left: 20px;
-	
+	margin-left: 20px;	
 }
 
-.Anna
+.Anna,.Emeric
 {
-	padding: 50px
+	padding: 50px;
+	padding-top: 20px;
 }
 
-.Emeric
+
+/*BLOC GAUCHE*/
+aside
 {
-	padding: 50px
+	background-color: #006080;
+	width: 30%;
+	min-width: 30%;
+	text-align:center;
+}
+figure
+{
+	margin: auto;
+}
+#minipp
+{
+	/*clip-path:ellipse(50% 42%);*/
+    overflow: hidden;
+    width: 150px;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+	box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.7);
+    display: inline-block;
+ 	border: 2px solid grey;
+ 	width: 125px;
+  	height: 140px;
+  	border-radius: 50%;	 
 }
 
+a img
+{
+	width: 80px
+}
+
+aside h1
+{
+	background-color: #E0E0E0;
+	text-align: center;
+	overflow: hidden;
+	font-size: 2em;
+	font-weight: bold;
+	box-shadow: 0px 5px 5px 0px #E0E0E0;
+}
+
+.linkedin
+{
+	box-shadow: 5px 5px 5px 0px #BDBDBD;
+	display: inline-flex;
+}
+
+.apropos
+{
+	margin-top: 100px
+}
+
+.loisirs
+{
+	margin-top: 200px
+}
+
+#imgloisirs
+{
+	display:flex;
+	justify-content: space-around;
+	margin:auto;
+	height: 30px;
+	width: 80%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+
+aside p 
+{
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+}
